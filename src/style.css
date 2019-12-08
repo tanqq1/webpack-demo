@@ -1,0 +1,15 @@
+
+@font-face{
+  font-family: 'Myfont';
+  src: url(./my-font.woff);
+  font-weight:600;
+  font-style:normal;
+}
+
+
+.hello {
+    color: greenyellow;
+    font-family: "Myfont";
+    /* background-image: url('./river.jpg'); */
+  }
+
