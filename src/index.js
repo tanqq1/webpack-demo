@@ -5,6 +5,7 @@ import ImageUrl from './river.jpg';
 import printMe from './print.js';
 
 function component() {
+  console.log("-------",process.env.NODE_ENV)
     let element = document.createElement('div');
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
     element.classList.add('hello');
